@@ -48,4 +48,14 @@
             app:popUpTo="@id/homeFragment"
             app:popUpToInclusive="true" />
     </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="live.qtech.navigationcomponent.SettingsFragment"
+        android:label="settingsID"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/tarmsFragment"
+        android:name="live.qtech.navigationcomponent.TarmsFragment"
+        android:label="fragment_tarms"
+        tools:layout="@layout/fragment_tarms" /><action android:id="@+id/action_global_tarmsFragment" app:destination="@id/tarmsFragment"/>
 </navigation>
