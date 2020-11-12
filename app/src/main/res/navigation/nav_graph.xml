@@ -58,4 +58,9 @@
         android:name="live.qtech.navigationcomponent.TarmsFragment"
         android:label="fragment_tarms"
         tools:layout="@layout/fragment_tarms" /><action android:id="@+id/action_global_tarmsFragment" app:destination="@id/tarmsFragment"/>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="live.qtech.navigationcomponent.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
 </navigation>
